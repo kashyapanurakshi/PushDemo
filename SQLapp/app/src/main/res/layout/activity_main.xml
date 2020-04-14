@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/text1"
+        android:text = "NAME"
+        android:layout_marginTop="20dp"
+        tools:layout_marginStart="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/text2"
+        android:text = "SURNAME"
+        tools:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/text3"
+        android:text = "MARKS"
+        tools:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/text4"
+        android:text = "ID"
+        android:layout_marginTop="90dp"
+        tools:layout_marginStart="30dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "10"
+        android:id = "@+id/edit1"
+        tools:layout_marginStart="150dp"
+        android:layout_alignBaseline="@+id/text1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "10"
+        android:id = "@+id/edit2"
+        android:layout_alignBaseline="@+id/text2"
+        tools:layout_marginStart="150dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "10"
+        android:id = "@+id/edit3"
+        android:layout_alignBaseline="@+id/text3"
+        tools:layout_marginStart="150dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "10"
+        android:id = "@+id/edit4"
+        tools:layout_marginStart="150dp"
+        android:layout_alignBaseline="@+id/text4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "ADD DATA"
+        android:id= "@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="150dp"/>
+
+    <Button
+        android:id="@+id/buttonData"
+        android:text="SHOW DATA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="210dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE DATA"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="300dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "DELETE DATA"
+        android:id= "@+id/buttonDelete"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="400dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApp16</string>
+    <string name="login_page">Login Page</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="click_here">Click Here</string>
+    <string name="attempts">Attempts</string>
+    <string name="welcome_to_second_page">Welcome to second page</string>
+</resources>
