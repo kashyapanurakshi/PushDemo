@@ -22,4 +22,5 @@ public class MainActivity extends AppCompatActivity {
         autoCompleteTextView.setThreshold(1);
         autoCompleteTextView.setAdapter(adapter);
     }
+    String test = "test";
 }
