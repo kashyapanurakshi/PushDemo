@@ -24,4 +24,5 @@ public class MainActivity extends AppCompatActivity {
     }
     String test = "Magic";
     boolean i = true;
+    boolean j = false;
 }
