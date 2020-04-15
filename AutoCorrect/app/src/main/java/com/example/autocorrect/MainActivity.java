@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         autoCompleteTextView.setAdapter(adapter);
     }
     String test = "Magic";
-    boolean i = true;
-    boolean j = false;
+    boolean i = false;
+    boolean j = true;
+    int r = 30;
+    int f = 90;
+    int ii;
+    int iii;
 }
