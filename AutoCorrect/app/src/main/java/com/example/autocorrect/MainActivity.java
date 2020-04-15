@@ -24,4 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
     String test = "Magic";
     boolean i = true;
+    int y = 67;
+    long u = 99999;
+
 }
