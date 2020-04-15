@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         autoCompleteTextView.setThreshold(1);
         autoCompleteTextView.setAdapter(adapter);
     }
-    String test = "test";
+    String test = "Magic";
+    boolean i = true;
 }
