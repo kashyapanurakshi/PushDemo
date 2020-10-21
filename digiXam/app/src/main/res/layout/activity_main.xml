@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.login.LoginActivity"
+    android:background="@color/peacockBlue">
+
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="64dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeLabel"
+        android:layout_margin="20sp"
+        android:text="DIGIXAM"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Enter Username"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/welcomeLabel"
+        android:layout_marginTop="40sp"/>
+
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@id/editTextTextEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40sp"
+        android:text="Enter Password"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loggedInCheckbox"
+        android:enabled="true"
+        android:layout_alignBottom="@+id/loggedInLabel"
+        android:layout_marginLeft="90sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loggedInLabel"
+        android:text="Keep me logged in"
+        android:layout_above="@+id/signInButton"
+        android:layout_marginBottom="10sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInButton"
+        android:text="SIGN IN"
+        android:layout_below="@+id/editTextTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newUserTextView"
+        android:text="New user? Register here"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/signInButton"
+        android:layout_marginTop="40sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/registerButton"
+        android:text="REGISTER"
+        android:layout_below="@+id/newUserTextView"
+        android:layout_margin="30sp"/>
+
+</RelativeLayout>
